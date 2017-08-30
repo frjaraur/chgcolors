@@ -1,3 +1,14 @@
+
+## Building
+
+~~~
+	git clone https://github.com/frjaraur/chgcolors.git
+
+	docker build -t frjaraur/hrm-demo-chgcolors:1.0 chgcolors
+
+~~~
+
+
 ## Green Sample
 ~~~
 docker service create --publish target=3000,published=8000 \

@@ -1,5 +1,5 @@
-FROM alpine
-RUN apk --update --update --no-progress --no-cache  add nodejs
+FROM node:alpine
+#RUN apk --update --update --no-progress --no-cache  add nodejs
 ENV APPDIR /APP
 ENV COLOR=WHITE
 
